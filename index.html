@@ -23,23 +23,26 @@
 		<div class="collapse navbar-collapse" id="navbarNav">
 			<ul class="navbar-nav ml-auto align-items-center">
 				<li class="nav-item">
-					<a class="nav-link" href="#home">Home</a>
+					<a class="nav-link text-dark" href="#home">Home</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#about">About</a>
+					<a class="nav-link text-dark" href="#about">About</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#skills">Skills</a>
+					<a class="nav-link text-dark" href="#experience">Experience</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href="#projects">Projects</a>
+					<a class="nav-link text-dark" href="#skills">Skills</a>
 				</li>
-				
+				<li class="nav-item">
+					<a class="nav-link text-dark" href="#projects">Projects</a>
+				</li>
+
 				<li class="nav-item dropdown">
 					<a class="nav-link dropdown-toggle" href="#" id="cvDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">CV</a>
 						<div class="dropdown-menu" aria-labelledby="cvDropdown">
-						  <a class="dropdown-item" href="pdf/cv.pdf" target="_blank">View CV</a>
-						  <a class="dropdown-item" href="cv.pdf" download>Download CV</a>
+						  <a class="dropdown-item text-dark" href="pdf/cv.pdf" target="_blank">View CV</a>
+						  <a class="dropdown-item text-dark" href="pdf/cv.pdf" download>Download CV</a>
 						</div>
 				</li>
 				<!-- <li class="nav-item dropdown"> -->
@@ -50,11 +53,11 @@
 						<!-- </div> -->
 				<!-- </li> -->
 				<li class="nav-item">
-				  <a class="nav-link" href="#volunteering">Volunteering</a>
+				  <a class="nav-link text-dark" href="#volunteering">Volunteering</a>
 				</li>
 				
 				<li class="nav-item">
-				  <a class="nav-link" href="#contact">Contact</a>
+				  <a class="nav-link text-dark" href="#contact">Contact</a>
 				</li>
 			</ul>
 		</div>
@@ -67,14 +70,17 @@
 
 <!--Home/Name and Photo-->
 	<section id="home" class="py-5">
+		<video autoplay loop muted class="background-video">
+			<source src="img/pattern_-_85590 (720p).mp4" type="video/mp4">
+		</video>
 	<div class="container">
-		<div class="row justify-content-center align-items-center" style="margin-top: 50px; text-align: right-side;">
+		<div class="row justify-content-center align-items-center" style="margin-top: 40px;">
 		  
 			<div class="col-lg-6 text-lg-right text-center bright">
 				<h1><b>Abu&nbsp;Enayet&nbsp;Siddique</b></h1>
 				<h4>Aspiring&nbsp;Web&nbsp;Developer</br> UX &UI designer</h4>
-				<h5>Open to work</h5>
-				<div>
+				<h5 style="color: green;">**Open to work**</h5>
+				<div style="margin-bottom: 20px;">
 					<a href="https://github.com/AbuEnayetSiddique" target="_blank">
 						<!-- <i class="fa-brands fa-square-github"></i> -->
 						<!-- <i class="bi bi-github"></i> -->
@@ -91,7 +97,7 @@
 				</div>
 			</div>
 			<div class="col-lg-6 text-center">
-				<img src="img/p4.png" alt="Profile Image" style="height: 350px; width: 350px; border-radius: 30px;">
+				<img id="profileImage" src="img/p4.png" alt="Profile Image" style="height: 350px; width: 350px; border-radius: 200px; border: 0px;">
 			</div>
 		  
 		</div>
@@ -102,24 +108,35 @@
 
 
 <!-- About Me section -->
-	<section id="about" class="py-5 bg-light">
+	<section id="about" class="py-5">
+		<video autoplay loop muted class="background-video-about">
+			<source src="img/vecteezy_technology-network-background__6_compressed.mp4" type="video/mp4">
+		</video>
     <div class="container">
 		<h2>About Me</h2>
-		<p class="aboutme">
-			I'm Abu Enayet Siddique, a web developer based in Windsor, Ontario, Canada. With a specialization in web 
-			development from St. Clair College, I bring a wealth of knowledge and expertise to every project. I am 
-			proficient in HTML, CSS, JavaScript, and frameworks like React.js and Bootstrap. I have a passion for 
-			creating visually stunning websites that provide an intuitive user experience. Let's work together to 
-			bring your vision to life and create an exceptional online presence.
-		</p> 
-		<p class="aboutme">
-			As a detail-oriented professional, I value clean code and optimized performance. I prioritize effective 
-			communication and collaboration to ensure that your website accurately reflects your brand identity and 
-			exceeds your expectations. With a commitment to staying up to date with the latest web development trends 
-			and technologies, I strive to deliver modern and cutting-edge solutions. Whether you have a personal blog 
-			or a complex e-commerce platform in mind, I am ready to help you achieve your goals and create a remarkable 
-			digital experience for your audience.
-		</p> 
+		<div class="row">
+			<div class="col-md-7">
+				<p class="aboutme">
+					I'm Abu Enayet Siddique, a web developer based in Windsor, Ontario, Canada. With a specialization in web 
+					development from St. Clair College, I bring a wealth of knowledge and expertise to every project.
+					<!--proficient in HTML, CSS, JavaScript, and frameworks like React.js and Bootstrap. I have a passion for 
+					creating visually stunning websites that provide an intuitive user experience. Let's work together to 
+					bring your vision to life and create an exceptional online presence.-->
+				</p> 
+			</div>
+			<div class="col-md-5"></div>
+			<div class="col-md-7">
+				<p class="aboutme">
+					As a detail-oriented professional, I value clean code and optimized performance. I prioritize effective 
+					communication and collaboration to ensure that your website accurately reflects your brand identity and 
+					exceeds your expectations. With a commitment to staying up to date with the latest web development trends 
+					<!--and technologies, I strive to deliver modern and cutting-edge solutions. Whether you have a personal blog 
+					or a complex e-commerce platform in mind, I am ready to help you achieve your goals and create a remarkable 
+					digital experience for your audience.-->
+				</p> 
+			</div>
+			<div class="col-md-5"></div>
+		</div>
 	 </div>
 	</section>
   
@@ -128,6 +145,9 @@
   
 <!-- Skills section -->
 	<section id="skills" class="py-5">
+		<video autoplay loop muted class="background-video-skills">
+			<source src="img/wave_-_87787 (720p).mp4" type="video/mp4">
+		</video>
     <div class="container">
 	
 		<h2>Skills</h2>
@@ -148,6 +168,7 @@
 			  <ul>
 				<li>PHP</li>
 				<li>C#</li>
+				<li>Laravel</li>
 			  </ul>
 			</div>
 		</div>
@@ -165,6 +186,7 @@
 				<ul>
 					<li>ASP.NET</li>
 					<li>Agile Project Management</li>
+					<li>Cloud Computing</li>
 				</ul>
 			</div>
 		</div>
@@ -172,6 +194,130 @@
     </div>
 	</section>
 
+
+
+
+<!-- Experience section -->
+	<section id="experience" class="py-5">
+		<div class="container">
+		<h2>Experience</h2>
+		
+			<div class="row"  style="margin-left: 2px; margin-right: 2px;">
+				<div class="col-md-7" style="border: 3px solid #d2f7ef; border-radius: 10px; border-right: 15px solid #d2f7ef;">      
+					<div class="row" style="padding-top: 17px;">
+						<div class="col-9">
+							<h5><b>Peer Tutor - St. Clair College</b></h5>
+							<h6>Conducting individual or small group student tutoring sessions. </br>
+							Ensuring punctuality and providing professional, respectful tutoring, adhering to Tutoring Services Guidelines, and serving as a role model for academic assistance.
+							</h6>
+						</div>
+						<div class="col-3" style="display: flex; justify-content: center;">
+							<h6 style="text-align: center; justify-content: center;">April 2023</br> - </br>Current</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="container">
+			<div class="row" style="margin-left: 2px; margin-right: 2px;">
+				
+				<div class="col-md-5">
+				</div>
+
+				<div class="col-md-7" style="border: 3px solid #d2f7ef; border-radius: 10px; border-left: 15px solid #d2f7ef;">      
+					<div class="row">
+						<div class="col-4" style="border-radius: 10px; display: flex; justify-content: center; padding: 2px;">
+							<h6 style="text-align: center; justify-content: center; padding: 17px;">February 2000</br> - </br>December 2020</h6>
+						</div>
+						<div class="col-8" style="padding-top: 17px;">
+							<h5><b>Poyratila Government Primary School</b></h5>
+							<h6><b><i>Assistant teacher / Acting Headmaster</i></b></h6>
+							<h6>Facilitated classroom instruction, prepared educational materials, and assisted with administrative tasks and official duties.</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div class="container">
+			<div class="row"  style="margin-left: 2px; margin-right: 2px;">
+				
+				<div class="col-md-7" style="border: 3px solid #d2f7ef; border-radius: 10px; border-right: 15px solid #d2f7ef;">      
+					<div class="row" style="padding-top: 17px;">
+						<div class="col-9">
+							<h5><b>Misti-King (Fast-food) – Habiganj, Bangladesh</b></h5>
+							<h6><b><i>Co-Founder and Manager</i></b></h6>
+							<h6>Maintained smooth daily operations with high-quality standards.</br>
+							Effectively managed inventory and strategically stocked an ample supply of resources to meet customer demands.
+							</h6>
+						</div>
+						<div class="col-3" style="display: flex; justify-content: center;">
+							<h6 style="text-align: center; justify-content: center;">July 2018</br> - </br>January 2020</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+				</div>
+			</div>
+		</div>
+			
+			
+		<div class="container">
+			<div class="row" style="margin-left: 2px; margin-right: 2px;">
+				
+				<div class="col-md-5">
+				</div>
+
+				<div class="col-md-7" style="border: 3px solid #d2f7ef; border-radius: 10px; border-left: 15px solid #d2f7ef;">      
+					<div class="row">
+						<div class="col-4" style="border-radius: 10px; display: flex; justify-content: center; padding: 2px;">
+							<h6 style="text-align: center; justify-content: center; padding: 17px;">January 2016</br> - </br>June 2018</h6>
+						</div>
+						<div class="col-8" style="padding-top: 17px;">
+							<h5><b>FnF Garments – Habiganj, Bangladesh</b></h5>
+							<h6><b><i>Co-Founder and Manager</i></b></h6>
+							<h6>Analyzed market demand to develop a strategic business plan.</br>
+								Successfully monitored financial performance while efficiently managing increased demand during celebrations and festivals.
+							</h6>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+
+		
+		<div class="container">
+			<div class="row"  style="margin-left: 2px; margin-right: 2px;">
+				
+				<div class="col-md-7" style="border: 3px solid #d2f7ef; border-radius: 10px; border-right: 15px solid #d2f7ef;">      
+					<div class="row" style="padding-top: 17px;">
+						<div class="col-9">
+							<h5><b>Four Pillars – Olney, United Kingdom</b></h5>
+							<h6><b><i>Inventory Manager, Takeout Packaging</i></b></h6>
+							<h6>Handled takeout packaging, and managed fresh ingredient inventory for daily food preparation and smooth kitchen operations.</h6>
+						</div>
+						<div class="col-3" style="display: flex; justify-content: center;">
+							<h6 style="text-align: center; justify-content: center;">September 2011</br> - </br>March 2012</h6>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-md-5">
+				</div>
+			</div>
+		</div>
+
+		
+	</section>
 
 
 
@@ -268,24 +414,17 @@
 
 
 <!-- Volunteering section -->
-<section id="volunteering" class="py-5" >
+<section id="volunteering" class="py-5">
     <div class="container" id="volunteering1">
 	<h2 id="volunteering1">Volunteering</h2>
 	  
-	  <div class="row">
-      <div class="col-md-12">
+	  <div class="row"  style="margin-left: 2px; margin-right: 2px;">
+      <div class="col-md-6" style="border-radius: 10px; border: 2px solid #d2f7ef; padding-top: 10px;">
         <h4>Class Representative</h4>
         <p>Class Representative at St. Clair College.</p>
       </div>
-      </div>
-    </div>
-	
-	
-	
-	<div class="container" id="volunteering2">
-	  
-	  <div class="row">
-      <div class="col-md-12">
+
+      <div class="col-md-6" style="border-radius: 10px; border: 2px solid #d2f7ef; padding-top: 10px;">
         <h4>Web Development Club</h4>
         <p>Member at ‘Web Development Club’ at St. Clair College.</p>
       </div>
@@ -293,25 +432,15 @@
 	</div>
 	
 	
-
-	
-	
-
     <div class="container" id="volunteering2">
 	  
-	  <div class="row">
-      <div class="col-md-12">
+	  <div class="row" style="margin-left: 2px; margin-right: 2px;">
+      <div class="col-md-6" style="border-radius: 10px; border: 2px solid #d2f7ef; padding-top: 10px;">
         <h4>MASTUL Foundation Bangladesh</h4>
         <p>Volunteer at MASTUL Foundation Bangladesh.Volunteer at MASTUL Foundation Bangladesh.</p>
       </div>
-      </div>
-	</div>
-	
-		
-	<div class="container" id="volunteering2">
-	  
-	  <div class="row">
-      <div class="col-md-12">
+
+      <div class="col-md-6" style="border-radius: 10px; border: 2px solid #d2f7ef; padding-top: 10px;">
         <h4>Blood Donation</h4>
         <p>Member, Blood Donation Bangladesh Welfare Foundation (BDBWF).</p>
       </div>
@@ -320,18 +449,18 @@
 
     <div class="container">
 	  
-	  <div class="row">
-      <div class="col-md-4">
+	  <div class="row" style="border-radius: 10px; border: 2px solid #d2f7ef; margin-left: 2px; margin-right: 2px;">
+      <div class="col-md-4" style="padding-top: 10px;">
         <h4>Eastern University Earth Care Club</h4>
         <p>Former Assistant General Secretary at 'Eastern University Earth Care Club'.</p>
       </div>
       <div class="col-md-8">
         <div class="row">
           <div class="col-6">
-            <img src="img/vg11.jpg" alt="Volunteering 2 Image 1" class="img-fluid">
+            <img src="img/vg11.jpg" alt="Volunteering 2 Image 1" class="img-fluid vol-img">
           </div>
           <div class="col-6">
-            <img src="img/e_rally.jpg" alt="Volunteering 2 Image 2" class="img-fluid">
+            <img src="img/e_rally.jpg" alt="Volunteering 2 Image 2" class="img-fluid vol-img">
           </div>
         </div>
       </div>
@@ -340,18 +469,18 @@
 	
 		<div class="container">
 	  
-	  <div class="row">
-      <div class="col-md-4">
+	  <div class="row" style="border-radius: 10px; border: 2px solid #d2f7ef; margin-left: 2px; margin-right: 2px;">
+      <div class="col-md-4" style="padding-top: 10px;">
         <h4>Eastern University Social Welfare Club</h4>
         <p>Former Executive Member at ‘Eastern University Social Welfare Club’.</p>
       </div>
       <div class="col-md-8">
         <div class="row">
           <div class="col-6">
-            <img src="img/social.jpg" alt="Volunteering 2 Image 1" class="img-fluid">
+            <img src="img/social.jpg" alt="Volunteering 2 Image 1" class="img-fluid vol-img">
           </div>
           <div class="col-6">
-            <img src="img/t20.jpg" alt="Volunteering 2 Image 2" class="img-fluid">
+            <img src="img/t20.jpg" alt="Volunteering 2 Image 2" class="img-fluid vol-img">
           </div>
         </div>
       </div>
