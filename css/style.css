@@ -1,4 +1,9 @@
 @charset "utf-8";
+
+*{
+	scroll-behavior: smooth;
+}
+
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -101,7 +106,7 @@ nav .navbar-nav {
   margin-left: auto;
 }
 .bright {
-	border-right: 5px solid yellow;
+	border-right: 5px solid rgb(0, 0, 0);
 }
 @media (max-width: 991px) {
   .bright {
