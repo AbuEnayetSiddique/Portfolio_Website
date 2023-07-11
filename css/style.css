@@ -258,7 +258,7 @@ footer address {
 }
 .navbar-nav .nav-link.active {
   font-weight: bold;
-  border-radius: 15px;
+  border-radius: 10px;
 color:#000000!important;
 background-color: #d2f7ef;
   /* border-left: 3px solid black; */
