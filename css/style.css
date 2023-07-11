@@ -154,6 +154,18 @@ footer {
   padding: 10px;
 }
 
+/*CV Button*/
+#cv-button{
+	font-weight: bold; 
+	border-radius: 5px;
+}
+#cv-button:hover {
+	transition: .5s;
+	z-index: 1;
+  color:#ffffff;
+  background-color: #000000;
+}
+
 /*Volunteer Image*/
 .vol-img {
 	border-radius: 10px;
